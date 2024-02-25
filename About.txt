@@ -1,0 +1,13 @@
+Name:Ritchey Copy Files
+Implementation:1
+Version:1
+Long Identifier:Ritchey Copy Files i1 v1
+Short Identifier:RCFi1v1
+Description:Ritchey Copy Files copies files from one folder to another. Any files that exist in the destination are compared to checksums provided in checksums files, or by hashing the files.
+History:
+ - Project started February 25, 2024.
+ - Version 1 completed February 25, 2024.
+Author:James Daniel Marrs Ritchey
+License:Ritchey Permissive License v16
+Notes:
+ - This copies files from source to destination, but does not address files in destination which don't exist in source. This is NOT a mirroring tool.
